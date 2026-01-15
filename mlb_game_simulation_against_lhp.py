@@ -1,6 +1,6 @@
 def get_player_outcome(first_name, last_name):
     from pybaseball import statcast_batter, playerid_lookup
-    import random
+    import random 
 
     player = playerid_lookup(last_name, first_name)
     player_id = int(player.loc[0, "key_mlbam"])
